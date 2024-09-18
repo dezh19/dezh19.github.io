@@ -1,0 +1,76 @@
+#title {
+  font-family: monospace;
+  text-align: center;
+  font-size: 8vw;
+}
+
+#main {
+  font-family: calibri;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 5vmin 0 5vmin;
+}
+
+img{
+  display:block;
+}
+
+#image{
+  max-width:100%;
+  height:auto;
+}
+
+#img-div{
+align-content: center;
+}
+
+#img-caption {
+  font-size: 18px;
+  text-align: center;
+}
+
+#tribute-info {
+  width: 100%;
+  text-align: left;
+}
+
+#timeline {
+  text-align: left;
+}
+
+#timeline > ul > li {
+  list-style:none;
+}
+
+.year {
+  padding-left: 1.1em;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  font-size: 2em;
+}
+
+
+h2 {
+  text-align: center;
+}
+
+body {
+  background-color: #222222;
+  color: white;
+  text-align: left;
+  font-family: calibri, monospace;
+}
+
+li {
+  padding: 1vh 0 1vh 0;
+}
+
+#bottom-note {
+  font-family: calibri;
+  font-size: 0.85em;
+  text-align: center;
+  padding: 0 0 5vh 0;
+}
